@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:weightSum = "1.0"
+		>
+
+		<LinearLayout android:id="@+id/header_tile"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+				android:layout_weight = ".70"
+                android:background="#96ffffff"
+				android:orientation="horizontal"
+				android:weightSum = "1.0">
+                <!-- android:paddingTop="5dip"
+                android:paddingBottom="5dip"
+				Logo Start-->
+                <ImageView  
+						android:layout_width="0dip"
+						android:layout_height="70dip"
+						android:layout_weight = ".20"
+						android:paddingTop="10dip"
+						android:layout_marginLeft="10dip"
+						android:src="@drawable/autoricshaw"/>
+							<!--Application Logo-->
+				
+				<LinearLayout android:id="@+id/head_filler_tile"
+						android:layout_width="0dip"
+						android:layout_height="50dip"
+						android:layout_weight = ".60">
+				</LinearLayout>
+				
+				<ImageView  
+                            android:layout_width="0dip"
+                            android:layout_height="50dip"
+							android:layout_weight = ".20"
+                            android:layout_marginLeft="10dip"
+							android:src="@drawable/bookmarkicon"
+							/>
+							<!--Most visited places Image-->
+                <!-- Logo Ends -->
+				<!--android:src="@drawable/findpeople"-->
+        </LinearLayout>
+		
+<!--		<LinearLayout android:id="@+id/body_tile"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:padding="5dip"
+          android:layout_below="@id/header_tile">
+          <ImageView  
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dip"
+				android:src="@drawable/findpeople"
+				/>
+        </LinearLayout>
+		android:background="@layout/header_gradient"
+-->
+		<LinearLayout android:id="@+id/footer_tile"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+				android:layout_weight = ".30"
+				android:background="#ffffff"
+                android:paddingTop="5dip"
+                android:paddingBottom="0dip"
+				android:orientation="horizontal"
+				android:weightSum = "1.0">
+				
+                <LinearLayout android:id="@+id/profile_tile"
+						android:layout_width="0dp"
+						android:layout_height="fill_parent"
+						android:layout_weight = ".50"
+						android:background="@drawable/gradientblue"
+						android:paddingTop="0dip"
+						android:paddingBottom="0dip">
+						
+						<TextView	android:id="@+id/profile"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:text="Profile"
+								android:textColor = "#ffffff"
+								android:textStyle = "bold"
+								android:typeface = "normal"/>
+								
+				</LinearLayout>
+				
+				<LinearLayout android:id="@+id/filler_tile"
+						android:layout_width="5dip"
+						android:layout_height="fill_parent"
+						android:paddingTop="0dip"
+						android:paddingBottom="0dip">
+				</LinearLayout>
+				<!--android:tileMode="repeat"-->
+
+                <LinearLayout android:id="@+id/donate_tile"
+						android:layout_width="0dp"
+						android:layout_height="fill_parent"
+						android:layout_weight = ".50"
+						android:background="@drawable/gradientgreen"
+						android:tileMode="repeat"	
+						android:paddingLeft = "5dip"
+						android:paddingTop="0dip"
+						android:paddingBottom="0dip">
+						<TextView	android:id="@+id/donate"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:textColor = "#ffffff"
+								android:typeface = "normal"
+								android:textStyle = "bold"
+								android:text="Donate" />
+				</LinearLayout>
+        </LinearLayout>
+  </LinearLayout>

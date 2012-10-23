@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto-Share</string>
+	<string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+	<string name="button_search_people">Search People</string>
+	<string name="email">Email</string>
+	<string name="password">Password</string>
+	<string name="login">Login</string>
+	<string name="link_to_register">New to Auto-Share? Register here</string>
+	<string name="reg_fullname">Full Name</string>
+	<string name="reg_act_lbl">Register New Account</string>
+</resources>

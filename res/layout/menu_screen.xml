@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+	>
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+		android:layout_weight="1"
+        android:padding="5dip" >
+ 
+        <ImageButton
+		android:id="@+id/Button01"
+		android:layout_width="0dp"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:cropToPadding="false"
+		android:paddingLeft="10dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/findpeople"
+		android:onClick="findPeople"
+		/>
+ 
+        <ImageButton
+		android:id="@+id/Button02"
+		android:layout_width="0dp"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:cropToPadding="false"
+		android:paddingLeft="10dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/google1icon" />
+    </TableRow>
+ 
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+		android:layout_weight="1"
+        android:padding="5dip" >
+ 
+        <ImageButton
+		android:id="@+id/Button03"
+		android:layout_width="0dp"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:cropToPadding="false"
+		android:paddingLeft="10dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/google1icon" />
+ 
+        <ImageButton
+		android:id="@+id/Button04"
+		android:layout_width="0dp"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:cropToPadding="false"
+		android:paddingLeft="10dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/google1icon" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+		android:layout_weight="1"
+        android:padding="5dip" >
+ 
+        <ImageButton
+		android:id="@+id/Button05"
+		android:layout_width="0dp"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:cropToPadding="false"
+		android:paddingLeft="10dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/google1icon" />
+		
+		<ImageButton
+		android:id="@+id/Button06"
+		android:layout_width="0dp"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:cropToPadding="false"
+		android:paddingLeft="10dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/google1icon" />
+    </TableRow> 
+</TableLayout>
